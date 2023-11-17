@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CSFA1</title>
+		<meta charset="UTP-8">
+		<meta 
+	</head>
+	<style>
+	a{
+		text-decoration:none;
+		margin:20px 10px;
+	}
+	a:link {
+		color: black;
+		background-color: pink;
+	}
+	a:visited {
+		color: purple;
+		background-color: lavender;
+	}
+	a:hover {
+		color: white;
+		background-color: lightgreen;
+	}
+	a:active {
+		color: white;
+		background-color: lavender;
+    }
+	div {
+		width: 30%;
+		display: inline-block;
+		border: 1px solid black;
+		padding: 10px;
+		margin:3px 8px;
+	}
+	#Div1:target {
+		background-color: lavender;
+		font-color: black;
+	}
+	#Div2:target {
+		border: 10px dotted lightblue;
+	}
+	</style>
+	
+	<body>
+	<a href="#Div1">First Link</a>
+	<a href="#Div2">Second Link</a><br>
+	
+	<br>
+
+	<div id="Div1">
+	  <h1>Div 1</h1>
+	  <p>1st Div</p>
+	</div><br>
+
+	<div id="Div2">
+	  <h1>Div 2</h1>
+	  <p>2nd Div</p>
+	</div>
+
+	</body>
+</html>
